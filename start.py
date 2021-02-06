@@ -10,24 +10,19 @@ lastName="Timberlake"
 
 print(firstName+" "+lastName)
 
-#Comment
 #User Input
-
-# name=input("Input your name:")
-# print(name)
-
-# num1=input("Number 1:")
-# num2=input("Number 2:")
-
-# n1=int(num1)
-# n2=int(num2)
-
-#print(n1+n2)
+#Type Casting
+bdayYear=input("Input your Birthday Year:")
+age=2021-int(bdayYear) #String to Interger
+print("Your Age is:",age)
+print("Your age is:" + str(age)) #Alternative way 
 
 #conditional statement
 price=500
 if price>500:
     print("Price is Greater than 500")
+elif price<0:  
+    print("None")
 else:
     print("Price is not grater than 500")
 

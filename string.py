@@ -21,5 +21,8 @@ print(x) # x=10+3*2 = 16
 x=(10+3)*2
 print(x) # x=(10+3)*2 = 26
 
-  
-
+#List
+names=['jon','rio','aney','mike']
+print(names[-1]) #print the last element of the list
+print(names[-2]) #print the 2nd last element of the list
+print(names[0]) #print the first element of the list
